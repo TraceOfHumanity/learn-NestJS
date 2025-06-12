@@ -1,7 +1,7 @@
 import {
-  CallHandler,
-  ExecutionContext,
   NestInterceptor,
+  ExecutionContext,
+  CallHandler,
   Injectable,
 } from '@nestjs/common';
 import { UsersService } from '../users.service';
